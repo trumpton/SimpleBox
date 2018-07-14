@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>878</width>
+    <height>357</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow Title</string>
+  </property>
+  <property name="toolTipDuration">
+   <number>-6</number>
+  </property>
+  <property name="accessibleName">
+   <string>MainWindow Accessible Name</string>
+  </property>
+  <property name="accessibleDescription">
+   <string>MainWindow Accessible Description</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QTextEdit" name="textEdit">
+        <property name="focusPolicy">
+         <enum>Qt::WheelFocus</enum>
+        </property>
+        <property name="accessibleName">
+         <string>QTextEdit Name</string>
+        </property>
+        <property name="accessibleDescription">
+         <string>QTextEdit Description</string>
+        </property>
+        <property name="tabChangesFocus">
+         <bool>true</bool>
+        </property>
+        <property name="html">
+         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-size:9pt;&quot;&gt;Contents of Text Edit&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit">
+        <property name="mouseTracking">
+         <bool>false</bool>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::WheelFocus</enum>
+        </property>
+        <property name="accessibleName">
+         <string>QLineEdit Name</string>
+        </property>
+        <property name="accessibleDescription">
+         <string>QLineEdit Description</string>
+        </property>
+        <property name="text">
+         <string>Contents of Line Edit</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="plainTextEdit">
+        <property name="focusPolicy">
+         <enum>Qt::WheelFocus</enum>
+        </property>
+        <property name="accessibleName">
+         <string>QPlainTextEdit Name</string>
+        </property>
+        <property name="accessibleDescription">
+         <string>QPlainTextEdit Description</string>
+        </property>
+        <property name="tabChangesFocus">
+         <bool>true</bool>
+        </property>
+        <property name="plainText">
+         <string>Contents of Plaintext Edit</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextBrowser" name="textBrowser">
+        <property name="focusPolicy">
+         <enum>Qt::WheelFocus</enum>
+        </property>
+        <property name="accessibleName">
+         <string>QTextBrowser Name</string>
+        </property>
+        <property name="accessibleDescription">
+         <string>QTextBrowser Description</string>
+        </property>
+        <property name="html">
+         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-size:9pt;&quot;&gt;This is the text in the text browser&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:600;&quot;&gt;The second line is in bold&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-size:9pt; font-style:italic;&quot;&gt;And the last line in italics&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="textInteractionFlags">
+         <set>Qt::LinksAccessibleByKeyboard|Qt::LinksAccessibleByMouse|Qt::TextBrowserInteraction|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="focusPolicy">
+       <enum>Qt::WheelFocus</enum>
+      </property>
+      <property name="accessibleName">
+       <string>QTabWidget Name</string>
+      </property>
+      <property name="accessibleDescription">
+       <string>QTabWidget Description</string>
+      </property>
+      <property name="tabShape">
+       <enum>QTabWidget::Rounded</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <property name="usesScrollButtons">
+       <bool>false</bool>
+      </property>
+      <widget class="QWidget" name="tab">
+       <property name="accessibleName">
+        <string>Accessible Tab 1</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>QWidget</string>
+       </property>
+       <attribute name="title">
+        <string>Option &amp;1</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QListWidget" name="listWidget">
+          <property name="accessibleName">
+           <string>QListWidget Name</string>
+          </property>
+          <property name="accessibleDescription">
+           <string>QListWidget Description</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>List Widget Item 1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>List Widget Item 2</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_2">
+          <property name="accessibleName">
+           <string>QLineEdit Name</string>
+          </property>
+          <property name="accessibleDescription">
+           <string>QLineEdit Description</string>
+          </property>
+          <property name="text">
+           <string>Line Edit</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit_2">
+          <property name="accessibleName">
+           <string>QTextEdit Name</string>
+          </property>
+          <property name="accessibleDescription">
+           <string>QTextEdit Description</string>
+          </property>
+          <property name="tabChangesFocus">
+           <bool>true</bool>
+          </property>
+          <property name="html">
+           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-size:9pt;&quot;&gt;Text Edit&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPlainTextEdit" name="plainTextEdit_2">
+          <property name="accessibleName">
+           <string>QPlainTextEdit Name</string>
+          </property>
+          <property name="accessibleDescription">
+           <string>QPlainTextEdit Description</string>
+          </property>
+          <property name="tabChangesFocus">
+           <bool>true</bool>
+          </property>
+          <property name="plainText">
+           <string>Plaintext Edit</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <property name="accessibleName">
+        <string>Accessible Tab 2</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>QWidget</string>
+       </property>
+       <attribute name="title">
+        <string>Option &amp;2</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QRadioButton" name="radioButton">
+          <property name="accessibleName">
+           <string>QRadioButton Name</string>
+          </property>
+          <property name="accessibleDescription">
+           <string>QRadioButton Description</string>
+          </property>
+          <property name="text">
+           <string>RadioButton</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox">
+          <property name="accessibleName">
+           <string>QCheckBox Name</string>
+          </property>
+          <property name="accessibleDescription">
+           <string>QCheckBox Description</string>
+          </property>
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDateEdit" name="dateEdit">
+          <property name="accessibleName">
+           <string>QDateEdit Name</string>
+          </property>
+          <property name="accessibleDescription">
+           <string>QDateEdit Description</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTimeEdit" name="timeEdit">
+          <property name="accessibleName">
+           <string>QTimeEdit Name</string>
+          </property>
+          <property name="accessibleDescription">
+           <string>QTimeEdit Description</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDateTimeEdit" name="dateTimeEdit_2">
+          <property name="accessibleName">
+           <string>QDateTimeEdit Name</string>
+          </property>
+          <property name="accessibleDescription">
+           <string>QDateTimeEdit Description</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <property name="accessibleName">
+        <string>Accessible Tab 3</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>QWidget</string>
+       </property>
+       <attribute name="title">
+        <string>Option &amp;3</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QComboBox" name="comboBox">
+          <property name="accessibleName">
+           <string>QComboBox Name</string>
+          </property>
+          <property name="accessibleDescription">
+           <string>QComboBox Description</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>Combobox First Entry</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Combobox Second Entry</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Combobox Third Entry</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Combobox Last Entry</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSpinBox" name="spinBox">
+          <property name="accessibleName">
+           <string>QSpinBox Name</string>
+          </property>
+          <property name="accessibleDescription">
+           <string>QSpinBox Description</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDial" name="dial">
+          <property name="maximumSize">
+           <size>
+            <width>64</width>
+            <height>64</height>
+           </size>
+          </property>
+          <property name="accessibleName">
+           <string>QDial Name</string>
+          </property>
+          <property name="accessibleDescription">
+           <string>QDial Description</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSlider" name="horizontalSlider">
+          <property name="accessibleName">
+           <string>QSlider Name</string>
+          </property>
+          <property name="accessibleDescription">
+           <string>QSlider Description</string>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>878</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_Menu">
+    <property name="title">
+     <string>&amp;Menu</string>
+    </property>
+    <addaction name="actionMenu_Option_One"/>
+    <addaction name="actionMenu_O_tion_Two"/>
+   </widget>
+   <widget class="QMenu" name="menuMenu_Two">
+    <property name="title">
+     <string>Menu &amp;Two</string>
+    </property>
+    <addaction name="actionOption_One"/>
+    <addaction name="actionOption_Two"/>
+    <addaction name="actionOption_Thr_ee"/>
+   </widget>
+   <addaction name="menu_Menu"/>
+   <addaction name="menuMenu_Two"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionMenu_Option_One">
+   <property name="text">
+    <string>Menu Option &amp;One</string>
+   </property>
+  </action>
+  <action name="actionMenu_O_tion_Two">
+   <property name="text">
+    <string>Menu Option &amp;Two</string>
+   </property>
+  </action>
+  <action name="actionOption_One">
+   <property name="text">
+    <string>Option &amp;One</string>
+   </property>
+  </action>
+  <action name="actionOption_Two">
+   <property name="text">
+    <string>Option &amp;Two</string>
+   </property>
+  </action>
+  <action name="actionOption_Thr_ee">
+   <property name="text">
+    <string>Option Thr&amp;ee</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
