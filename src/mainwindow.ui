@@ -7,20 +7,20 @@
     <x>0</x>
     <y>0</y>
     <width>878</width>
-    <height>357</height>
+    <height>370</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow Title</string>
+   <string>windowTitle</string>
   </property>
   <property name="toolTipDuration">
    <number>-6</number>
   </property>
   <property name="accessibleName">
-   <string>MainWindow Accessible Name</string>
+   <string>WinAccName</string>
   </property>
   <property name="accessibleDescription">
-   <string>MainWindow Accessible Description</string>
+   <string>WinAccDesc</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QHBoxLayout" name="horizontalLayout">
@@ -32,10 +32,10 @@
          <enum>Qt::WheelFocus</enum>
         </property>
         <property name="accessibleName">
-         <string>QTextEdit Name</string>
+         <string>AccName</string>
         </property>
         <property name="accessibleDescription">
-         <string>QTextEdit Description</string>
+         <string>AccDesc</string>
         </property>
         <property name="tabChangesFocus">
          <bool>true</bool>
@@ -44,7 +44,7 @@
          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-size:9pt;&quot;&gt;Contents of Text Edit&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
@@ -58,10 +58,10 @@ p, li { white-space: pre-wrap; }
          <enum>Qt::WheelFocus</enum>
         </property>
         <property name="accessibleName">
-         <string>QLineEdit Name</string>
+         <string>AccName</string>
         </property>
         <property name="accessibleDescription">
-         <string>QLineEdit Description</string>
+         <string>AccDesc</string>
         </property>
         <property name="text">
          <string>Contents of Line Edit</string>
@@ -74,10 +74,10 @@ p, li { white-space: pre-wrap; }
          <enum>Qt::WheelFocus</enum>
         </property>
         <property name="accessibleName">
-         <string>QPlainTextEdit Name</string>
+         <string>AccName</string>
         </property>
         <property name="accessibleDescription">
-         <string>QPlainTextEdit Description</string>
+         <string>AccDesc</string>
         </property>
         <property name="tabChangesFocus">
          <bool>true</bool>
@@ -93,16 +93,16 @@ p, li { white-space: pre-wrap; }
          <enum>Qt::WheelFocus</enum>
         </property>
         <property name="accessibleName">
-         <string>QTextBrowser Name</string>
+         <string>AccName</string>
         </property>
         <property name="accessibleDescription">
-         <string>QTextBrowser Description</string>
+         <string>AccDesc</string>
         </property>
         <property name="html">
          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-size:9pt;&quot;&gt;This is the text in the text browser&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:600;&quot;&gt;The second line is in bold&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-size:9pt; font-style:italic;&quot;&gt;And the last line in italics&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -120,10 +120,10 @@ p, li { white-space: pre-wrap; }
        <enum>Qt::WheelFocus</enum>
       </property>
       <property name="accessibleName">
-       <string>QTabWidget Name</string>
+       <string>QTabAccName</string>
       </property>
       <property name="accessibleDescription">
-       <string>QTabWidget Description</string>
+       <string>QTabAccDesc</string>
       </property>
       <property name="tabShape">
        <enum>QTabWidget::Rounded</enum>
@@ -148,10 +148,10 @@ p, li { white-space: pre-wrap; }
         <item>
          <widget class="QListWidget" name="listWidget">
           <property name="accessibleName">
-           <string>QListWidget Name</string>
+           <string>AccName</string>
           </property>
           <property name="accessibleDescription">
-           <string>QListWidget Description</string>
+           <string>AccDesc</string>
           </property>
           <item>
            <property name="text">
@@ -168,10 +168,10 @@ p, li { white-space: pre-wrap; }
         <item>
          <widget class="QLineEdit" name="lineEdit_2">
           <property name="accessibleName">
-           <string>QLineEdit Name</string>
+           <string>AccName</string>
           </property>
           <property name="accessibleDescription">
-           <string>QLineEdit Description</string>
+           <string>AccDesc</string>
           </property>
           <property name="text">
            <string>Line Edit</string>
@@ -181,10 +181,10 @@ p, li { white-space: pre-wrap; }
         <item>
          <widget class="QTextEdit" name="textEdit_2">
           <property name="accessibleName">
-           <string>QTextEdit Name</string>
+           <string>AccName</string>
           </property>
           <property name="accessibleDescription">
-           <string>QTextEdit Description</string>
+           <string>AccDesc</string>
           </property>
           <property name="tabChangesFocus">
            <bool>true</bool>
@@ -193,7 +193,7 @@ p, li { white-space: pre-wrap; }
            <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sans Serif'; font-size:9pt;&quot;&gt;Text Edit&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
          </widget>
@@ -201,10 +201,10 @@ p, li { white-space: pre-wrap; }
         <item>
          <widget class="QPlainTextEdit" name="plainTextEdit_2">
           <property name="accessibleName">
-           <string>QPlainTextEdit Name</string>
+           <string>AccName</string>
           </property>
           <property name="accessibleDescription">
-           <string>QPlainTextEdit Description</string>
+           <string>AccDesc</string>
           </property>
           <property name="tabChangesFocus">
            <bool>true</bool>
@@ -228,25 +228,59 @@ p, li { white-space: pre-wrap; }
        </attribute>
        <layout class="QVBoxLayout" name="verticalLayout_3">
         <item>
-         <widget class="QRadioButton" name="radioButton">
+         <widget class="QGroupBox" name="groupBox">
           <property name="accessibleName">
-           <string>QRadioButton Name</string>
+           <string>GbAccName</string>
           </property>
           <property name="accessibleDescription">
-           <string>QRadioButton Description</string>
+           <string>GbAccDesc</string>
           </property>
-          <property name="text">
-           <string>RadioButton</string>
+          <property name="title">
+           <string>GroupBox</string>
           </property>
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <item>
+            <widget class="QRadioButton" name="radioButton1">
+             <property name="accessibleName">
+              <string>AccName</string>
+             </property>
+             <property name="accessibleDescription">
+              <string>AccDesc</string>
+             </property>
+             <property name="text">
+              <string>RadioButton 1</string>
+             </property>
+             <property name="checked">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="radioButton">
+             <property name="accessibleName">
+              <string>AccName</string>
+             </property>
+             <property name="accessibleDescription">
+              <string>AccDesc</string>
+             </property>
+             <property name="text">
+              <string>RadioButton 2</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
          </widget>
         </item>
         <item>
          <widget class="QCheckBox" name="checkBox">
           <property name="accessibleName">
-           <string>QCheckBox Name</string>
+           <string>AccName</string>
           </property>
           <property name="accessibleDescription">
-           <string>QCheckBox Description</string>
+           <string>AccDesc</string>
           </property>
           <property name="text">
            <string>CheckBox</string>
@@ -256,30 +290,30 @@ p, li { white-space: pre-wrap; }
         <item>
          <widget class="QDateEdit" name="dateEdit">
           <property name="accessibleName">
-           <string>QDateEdit Name</string>
+           <string>AccName</string>
           </property>
           <property name="accessibleDescription">
-           <string>QDateEdit Description</string>
+           <string>AccDesc</string>
           </property>
          </widget>
         </item>
         <item>
          <widget class="QTimeEdit" name="timeEdit">
           <property name="accessibleName">
-           <string>QTimeEdit Name</string>
+           <string>AccName</string>
           </property>
           <property name="accessibleDescription">
-           <string>QTimeEdit Description</string>
+           <string>AccDesc</string>
           </property>
          </widget>
         </item>
         <item>
          <widget class="QDateTimeEdit" name="dateTimeEdit_2">
           <property name="accessibleName">
-           <string>QDateTimeEdit Name</string>
+           <string>AccName</string>
           </property>
           <property name="accessibleDescription">
-           <string>QDateTimeEdit Description</string>
+           <string>AccDesc</string>
           </property>
          </widget>
         </item>
@@ -312,10 +346,10 @@ p, li { white-space: pre-wrap; }
         <item>
          <widget class="QComboBox" name="comboBox">
           <property name="accessibleName">
-           <string>QComboBox Name</string>
+           <string>AccName</string>
           </property>
           <property name="accessibleDescription">
-           <string>QComboBox Description</string>
+           <string>AccDesc</string>
           </property>
           <item>
            <property name="text">
@@ -342,10 +376,10 @@ p, li { white-space: pre-wrap; }
         <item>
          <widget class="QSpinBox" name="spinBox">
           <property name="accessibleName">
-           <string>QSpinBox Name</string>
+           <string>AccName</string>
           </property>
           <property name="accessibleDescription">
-           <string>QSpinBox Description</string>
+           <string>AccDesc</string>
           </property>
          </widget>
         </item>
@@ -358,20 +392,20 @@ p, li { white-space: pre-wrap; }
            </size>
           </property>
           <property name="accessibleName">
-           <string>QDial Name</string>
+           <string>AccName</string>
           </property>
           <property name="accessibleDescription">
-           <string>QDial Description</string>
+           <string>AccDesc</string>
           </property>
          </widget>
         </item>
         <item>
          <widget class="QSlider" name="horizontalSlider">
           <property name="accessibleName">
-           <string>QSlider Name</string>
+           <string>AccName</string>
           </property>
           <property name="accessibleDescription">
-           <string>QSlider Description</string>
+           <string>AccDesc</string>
           </property>
           <property name="orientation">
            <enum>Qt::Horizontal</enum>
@@ -403,7 +437,7 @@ p, li { white-space: pre-wrap; }
      <x>0</x>
      <y>0</y>
      <width>878</width>
-     <height>21</height>
+     <height>23</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu_Menu">
